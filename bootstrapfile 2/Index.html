@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Techofy Home Page</title>
+  </head>
+  <!--background colour scheme-->
+  <!--background: linear-gradient( 0.25turn, #3619a8 5% ,#3f87a6 50%, #0c9120 100%);-->
+  <style>
+    body{
+      background: linear-gradient( 0.25turn, #3619a8 5% ,#3f87a6 50%, #0c9120 100%);
+    }
+      .top_a_tag{
+          color: white;
+          text-decoration: none;
+      }
+      .Go{
+          color: rgb(255, 255, 255);
+      }
+      
+      div#middle_list{
+        display: grid;
+        grid-template-columns: repeat(3,minmax(137.3px,1fr));
+      }
+      div.middle_container{
+        margin-top: 25px;
+        background: linear-gradient(0.5turn, #3f87a6,#9fd377,  #f69d3c);
+        border: 3px solid none;
+        border-radius: 4px;
+        box-shadow:none
+      }
+      ul#i,ul#j{
+        text-align: center;
+        list-style: none;
+        border-left: 3px solid;
+      }
+      .BY_mobile{
+            text-decoration: none;
+            color: black;
+            font-weight: bold ;
+      }
+      section{
+       
+        width: auto;
+        border-top: 2px solid ;
+        
+        
+      }
+      
+     #f{
+      text-align: center;
+      font-size:x-large;
+      margin-top: 25px;
+      margin-bottom: 0px;
+      
+     }
+     
+      button#e{
+       width: 390px;
+        height: 40px;
+        margin-top: 25px;
+        border-radius: 4px;
+      }
+        input#c,input#d{
+          width: 396px;
+          height: 35px;
+          margin-top: 25px;
+          border-radius: 4px;
+        }
+        
+        @media only screen and (max-width: 400px){
+        input#c,input#d{
+          width: 139px;
+        }
+        button#e{
+          width: 120px ;
+          margin-top: 25px;
+        }
+        div#middle_list{
+        display: grid;
+        grid-template-columns: repeat(3,minmax(130.3px,1fr));
+      }
+      }
+      @media only screen and (min-width:400px ) and (max-width: 800px){
+        input#c,input#d{
+          width: 126px;
+        }
+        button#e{
+          width: 120px ;
+          margin-top: 15px;
+        }
+      }
+      @media only screen and (min-width:800px ) and ( max-width: 990px){
+        input#c,input#d{
+          width: 226px;
+        }
+        button#e{
+          width: 210px ;
+        }
+      }
+      @media only screen and (min-width:990px ) and ( max-width: 1400px){
+        input#c,input#d{
+          width: 256px;
+        }
+        button#e{
+          width: 210px ;
+        }
+      }
+      @media only screen and (min-width:412px ) and ( max-width: 429px) {
+        img.sign_up_logo{
+          width: 394.5px;
+        }
+      }
+      @media only screen and (min-width:429px ) and ( max-width: 530px) {
+        img.sign_up_logo{
+          width: 464.5px;
+        }
+      }
+      @media only screen and (min-width:530px ) and ( max-width:  575px) {
+        img.sign_up_logo{
+          width: 533.5px;
+        }
+      }
+      @media only screen and (min-width:575px ) and ( max-width:  767px){
+        div.card-group{
+          overflow: auto;
+        }
+      }
+      a.button_hover:hover{
+          background-color: blue;
+      }
+  </style>
+  <body>
+    
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">
+                <img src="image -logo-company/whatsapp logo.jpeg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Techofy
+            </a>
+              
+              <a class="top_a_tag" href="#">Latest Mobiles --> </a>
+            <a class="top_a_tag"href="#">Samsung A32</a>   
+            <a class="top_a_tag"href="#">oPPo A74 5G</a>  
+            <a class="top_a_tag"href="#">Redmi Note 11S</a>   
+            <a class="top_a_tag"href="#">IQOO Neo 6 5G </a>   
+            <a class="top_a_tag"href="#">Vivo Y73</a>
+          <form class="d-flex pr-5 me-3" action="">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+          <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end rounded-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Settings</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark ">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item ">
+                  <a class="nav-link " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item ">
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Login/Sign up
+                  </button>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown  ">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown  ">
+                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                      <li><a class="dropdown-item" href="#">Mobile Phones</a></li>
+                      <li><a class="dropdown-item" href="#">PC</a></li>
+                      <li>
+                        <li><a class="dropdown-item" href="#">Laptops</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+              </ul>
+        </div>
+      </nav>
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <img style="border-radius: 4px; border:1px solid
+            ; border-bottom:none; border-bottom-left-radius: 0px; border-bottom-right-radius:0px; "class="sign_up_logo" src="image -logo-company/LOGO-1.png" width="498.5"  alt="">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Sign Up</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form  action="action/php">
+                <div class=" form-floating mb-3">
+                  
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for=" floatingInput" >Email address</label>
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class=" form-floating mb-3">
+                  
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                  
+              
+        
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+          </div>
+          </div>
+        </div>
+      </div>
+     <nav class="  border-top border-3 border-success navbar-dark bg-dark "> 
+      <ul class="nav nav-tabs nav-fill justify-content-center ">
+        <li class="nav-item">
+          <a class="nav-link Go "  aria-current="page" href="#">Mobiles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link Go" href="#">Headphones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link Go" href="#">Laptops</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link Go ">PC</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link Go" href="#">Tablets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Go" href="#">Air Conditioner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Go" href="#">Television</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Go" href="#">Cameras</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link Go" href="#">Smart Watch</a>
+          </li><li class="nav-item">
+            <a class="nav-link Go" href="#">Home Theater</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Go" href="#">Washing Machines</a>
+          </li>
+      </ul>
+    </nav>
+    <div class="middle_container container">
+      <form class="by_price" action="action_page.php">
+          <h2 style="font-family:fascinate ;">Let's find a mobile for you!!</h2>
+          <h4 id="h" style="font-family:Abril Fatface ;">By price</h4>
+          <section>
+              <div id="middle_list">
+                  
+              <div id="pricing_area overflow-auto" >    
+                 <!--<legend>Enter Your budget</legend>-->
+                  <label for="Start_price">Rs.</label>
+
+                  <input    type="search" placeholder="Enter your Amount" name="search" id="c">
+               
+                  <p id="f" >to</p>
+
+                  <label for="End_price">Rs.</label> 
+
+                  <input   type="search" placeholder="Enter your Amount" name="search" id="d">
+                  <div id="button">
+                  <button   type="submit" id="e" > Find Mobile ></button>
+                  </div>
+              </div>
+              <ul id="j">
+                  <li><h5 id="g" style="font-family:Abril Fatface ; text-decoration: underline;">By Features</h5></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">5G</a></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">8GB RAM  </a></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">5000+mAh battery</a></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">64MP+ Cameras</a></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">Android 12.0</a></li>
+              </ul>
+              <ul id="i">
+                  <li><h5 id="g" style="font-family:Abril Fatface ; text-decoration: underline;">By Brand</h5></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">Apple</a></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">Vivo</a></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">Samsung</a></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">Xiaomi</a></li>
+                  <br>
+                  <li><a class="BY_mobile" href="#">One Plus</a></li>
+              </ul>
+          </div>
+          </section>
+      </form>
+    </div>
+    <div style="background: linear-gradient(0.5turn, #3f87a6,#a0d378,  #f69d3c);" class="container  p-4 mt-3  rounded shadow-lg p-3 mb-5  rounded ">
+      <h5 style=" font-family: Indie Flower; font-weight:900;" class="card-header">Top categories</h5>
+      <div class="card-group d-flex  row-cols-3 overflow-auto justify-content ">
+        <div style="background: linear-gradient(0.5turn, #9fd377,  #f69d3c);" class="card col  ">
+          <a href="#"><img src="image -logo-company/mobile logo 3.jpeg" width="50px" class="card-img-top" alt="..."></a>
+          <div style="background:inherit;" class="card-body">
+            <a href="#" style="text-decoration: none; color:black;"><h5 class="card-title text-center">Mobiles</h5></a>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div style="background: linear-gradient(0.5turn, #9fd377,  #f69d3c);"class="card col  ">
+          <a href="3"><img src="image -logo-company/laptop logo 4.jpeg" class="card-img-top" alt="..."></a>
+          <div style="background:inherit;" class="card-body">
+            <a href="#" style="text-decoration: none; color:black;"><h5 class="card-title text-center">Laptops</h5></a>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div style="background: linear-gradient(0.5turn, #9fd377,  #f69d3c);"class="card col ">
+          <a href="#"><img src="image -logo-company/tablet 3.jpeg" class="card-img-top" alt="..."></a>
+          <div style="background:inherit;"class="card-body">
+            <a href="#" style="text-decoration: none; color:black;"><h5 class="card-title text-center">Tablets</h5></a>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div style="background: linear-gradient(0.5turn, #9fd377,  #f69d3c);" class="card col ">
+          <a href="#"><img src="image -logo-company/audio 3.jpeg" class="card-img-top" alt="..."></a>
+          <div style="background:inherit;"class="card-body">
+            <a href="#" style="text-decoration: none; color:black;"><h5 class="card-title text-center">Audio</h5></a>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div style="background: linear-gradient(0.5turn, #9fd377,  #f69d3c);"class="card col ">
+          <a href="#"><img src="image -logo-company/smart watch 3.jpeg" class="card-img-top" alt="..."></a>
+          <div style="background:inherit;"class="card-body">
+            <a href="#" style="text-decoration: none; color:black;"><h5 class="card-title text-center">Smart watches</h5></a>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div style="background: linear-gradient(0.5turn, #9fd377,  #f69d3c);"class="card col ">
+          <a href="#"><img src="image -logo-company/television 2.jpeg" class="card-img-top" alt="..."></a>
+          <div style="background:inherit;"class="card-body">
+            <a href="#" style="text-decoration: none; color:black;"><h5 class="card-title text-center">Televisions</h5></a>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div style="background: linear-gradient(0.5turn, #9fd377,  #f69d3c);"class="card col ">
+          <a href="#"><img src="image -logo-company/cameras 3.jpg" class="card-img-top" alt="..."></a>
+          <div style="background:inherit;"class="card-body">
+            <a href="#" style="text-decoration: none; color:black;"><h5 class="card-title text-center">Cameras</h5></a>
+            <p class="card-text"></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div style="background: linear-gradient(0.5turn, #9fd377,  #f69d3c);"class="card col ">
+          <a href="#"><img src="image -logo-company/washing machine 2.jpeg" class="card-img-top" alt="..."></a>
+          <div style="background:inherit;"class="card-body">
+            <a href="#" style="text-decoration: none; color:black;"><h5 class="card-title text-center">Washing Machines</h5></a>
+            <p class="card-text"></p>
+            <p class="card-text "><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+<div style="background: linear-gradient(0.5turn, #3f87a6,#a0d378,  #f69d3c);" class="container  p-4 mt-3   rounded shadow-lg p-3 mb-5  rounded">
+  <h5 class="card-header">Featured Mobile Brands</h5>
+      <div class="card-group d-flex  row-cols-3 overflow-auto justify-content ">
+            
+                <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+                  <div class=" text-center">
+                    <img src="image -logo-company/samsung_logo.png" class="card-img-top" alt="Samsung">
+                    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c);"class="card-body">
+                      <h5 class="card-title">Samsung</h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-secondary  w-100 button_color">View All</a>
+                    </div>
+                  </div>
+                </div>
+                <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c);"class="card col">
+                  <div class=" text-center">
+                    <img src="image -logo-company/oneplus.jpg"  class="card-img-top" alt="One Plus">
+                    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c);"class="card-body">
+                      <h5 class="card-title">One Plus</h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-secondary  w-100 button_color">View All</a>
+                    </div>
+                  </div>
+                </div>
+                <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+                  <div class=" text-center">
+                    <img src="image -logo-company/vivo-logo.jpg" class="card-img-top" alt="Vivo">
+                    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card-body">
+                      <h5 class="card-title">Vivo</h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-secondary  w-100 button_color">View All</a>
+                    </div>
+                  </div>
+                </div>
+                <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+                  <div class=" text-center">
+                    <img src="image -logo-company/oppo-mobile-logo.jpg" class="card-img-top" alt="OppO">
+                    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card-body">
+                      <h5 class="card-title">oppo</h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-secondary w-100 button_color">View All</a>
+                    </div>
+                  </div>
+                </div>
+                <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+                  <div class=" text-center">
+                    <img src="image -logo-company/xiaomi.jpg" class="card-img-top" alt="Xiaomi">
+                    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card-body">
+                      <h5 class="card-title">Xiaomi</h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-secondary w-100 button_color">View All</a>
+                    </div>
+                  </div>
+                </div>
+                <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+                  <div class=" text-center">
+                    <img src="image -logo-company/Realme-Logo.jpg" class="card-img-top" alt="Realme">
+                    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card-body">
+                      <h5 class="card-title">Realme</h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-secondary  w-100 button_color">View All</a>
+                    </div>
+                  </div>
+                </div>
+                <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+                  <div class=" text-center">
+                    <img src="image -logo-company/infinix logo 2.png" class="card-img-top" alt="">
+                    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card-body">
+                      <h5 class="card-title">Infinix</h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-secondary  w-100 button_color">View All</a>
+                    </div>
+                  </div>
+                </div>
+                <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+                  <div class=" text-center">
+                    <img src="image -logo-company/Asus logo 2.png" class="card-img-top" alt="">
+                    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card-body">
+                      <h5 class="card-title">Asus</h5>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-secondary  w-100 button_color">View All</a>
+                    </div>
+                  </div>
+                </div>
+                
+                
+      </div>        
+</div>   
+<div style="background: linear-gradient(0.5turn, #3f87a6,#a0d378,  #f69d3c);"class="container  p-4 mt-3  rounded shadow-lg p-3 mb-5  rounded ">
+  <h5 class="card-header">Latest and popular Mobiles</h5>
+  <div class="card-group d-flex  row-cols-3 overflow-auto justify-content ">
+
+    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+      <div class=" text-center">
+        <img src="phone images/vivo x80 5g.jpeg"   class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" style="text-decoration:none; color: black; font-weight: bold; "  > Vivo X80 5G</a></h5>
+          <p class="card-text"><a href="#" style="text-decoration:none; color:black; font-weight: bold; " >Price:- Rs.54,999 </a></p>
+          <a href="#" class="btn btn-secondary w-100 button_color "  >View Details</a>
+        </div>
+      </div>
+    </div>
+    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+      <div class=" text-center">
+        <img src="phone images/realme gt neo 3 5g.jpeg"   class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" style="text-decoration:none; color: black; font-weight: bold; "  > Realme GT Neo3 </a></h5>
+          <p class="card-text"><a href="#" style="text-decoration:none; color:black; font-weight: bold; " >Price:- Rs.42,999 </a></p>
+          <a href="#" class="btn btn-secondary w-100 button_color ">View Details</a>
+        </div>
+      </div>
+    </div>
+    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+      <div class=" text-center">
+        <img src="phone images/one plus 9 pro.jpeg"   class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" style="text-decoration:none; color: black; font-weight: bold; "  > One Plus 9 Pro </a></h5>
+          <p class="card-text"><a href="#" style="text-decoration:none; color:black; font-weight: bold; " >Price:- Rs.49,999 </a></p>
+          <a href="#" class="btn btn-secondary w-100 button_color">View Details</a>
+        </div>
+      </div>
+    </div>
+    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+      <div class=" text-center">
+        <img src="phone images/iqoo 9 pro 5g.jpeg"   class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" style="text-decoration:none; color: black; font-weight: bold; "  > IQOO 9 Pro 5G </a></h5>
+          <p class="card-text"><a href="#" style="text-decoration:none; color:black; font-weight: bold; " >Price:- Rs.64990 </a></p>
+          <a href="#" class="btn btn-secondary w-100 button_color">View Details</a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+      <div class=" text-center">
+        <img src="phone images/xiaomi 12 pro 5g 2.jpeg"   class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" style="text-decoration:none; color: black; font-weight: bold; "  > Xiaomi 12 Pro 5G </a></h5>
+          <p class="card-text"><a href="#" style="text-decoration:none; color:black; font-weight: bold; " >Price:- Rs.62999 </a></p>
+          <a href="#" class="btn btn-secondary w-100 button_color">View Details</a>
+        </div>
+      </div>
+    </div>
+    <div style="background: linear-gradient(0.5turn, #a0d378,  #f69d3c); "class="card col">
+      <div class=" text-center">
+        <img src="phone images/iqoo 7 legend.jpeg"   class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" style="text-decoration:none; color: black; font-weight: bold; "  > IQOO 7 Legend </a></h5>
+          <p class="card-text"><a href="#" style="text-decoration:none; color:black; font-weight: bold; " >Price:- Rs.37999 </a></p>
+          <a href="#" class="btn btn-secondary w-100 button_color">View Details</a>
+        </div>
+      </div>
+    </div>
+    
+</div>
+</div>
+<div style="background: linear-gradient(0.5turn, #3f87a6,#a0d378,  #f69d3c);" class="container  p-4 mt-3  rounded shadow-lg p-3 mb-5  rounded  ">
+  <div class="card-group d-flex  row-cols-4 overflow-auto justify-content ">
+  <div class="card mb-3 m-1" style="max-width: 310px; height: 150px; ">
+    <div class="row g-0 ">
+      <div class="col-md-4">
+        <img src="image -logo-company/mobile image.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8 text-center">
+        <div class="card-body">
+          <h5 class="card-title">Best Phones under</h5>
+          <h5 class="card-text">Rs.5000</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3 m-1" style="max-width: 310px; height: 150px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="image -logo-company/mobile image.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8 text-center">
+        <div class="card-body">
+          <h5 class="card-title">Best Phones under</h5>
+          <h5 class="card-text">Rs.10000</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3 m-1" style="max-width: 310px; height: 150px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="image -logo-company/mobile image.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8 text-center">
+        <div class="card-body">
+          <h5 class="card-title">Best Phones under</h5>
+          <h5 class="card-text">Rs.20000</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3 m-1" style="max-width: 310px; height: 150px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="image -logo-company/mobile image.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8 text-center">
+        <div class="card-body">
+          <h5 class="card-title">Best Phones under</h5>
+          <h5 class="card-text">Rs.40000</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="bg-dark  ">
+  
+</div>
+        
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

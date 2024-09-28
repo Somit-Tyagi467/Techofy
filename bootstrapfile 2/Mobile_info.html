@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    
+  </head>
+  <style>
+    .top_a_tag{
+          color: white;
+          text-decoration: none;
+      }
+      .Go{
+          color: rgb(255, 255, 255);
+      }
+      @media only screen and   ( max-width: 531px){
+        .mobile_picture{
+              display: grid!important;
+        }
+        .phone_image{
+          margin: 6rem!important;
+        }
+      }
+      @media only screen and (max-width: 400px){
+        input#c,input#d{
+          width: 139px;
+        }
+        button#e{
+          width: 120px ;
+          margin-top: 25px;
+        }
+        div#middle_list{
+        display: grid;
+        grid-template-columns: repeat(3,minmax(130.3px,1fr));
+      }
+      }
+      @media only screen and (min-width:400px ) and (max-width: 800px){
+        input#c,input#d{
+          width: 126px;
+        }
+        button#e{
+          width: 120px ;
+          margin-top: 15px;
+        }
+      }
+      @media only screen and (min-width:800px ) and ( max-width: 990px){
+        input#c,input#d{
+          width: 226px;
+        }
+        button#e{
+          width: 210px ;
+        }
+      }
+      @media only screen and (min-width:990px ) and ( max-width: 1400px){
+        input#c,input#d{
+          width: 256px;
+        }
+        button#e{
+          width: 210px ;
+        }
+      }
+      @media only screen and (min-width:412px ) and ( max-width: 429px) {
+        img.sign_up_logo{
+          width: 394.5px;
+        }
+      }
+      @media only screen and (min-width:429px ) and ( max-width: 530px) {
+        img.sign_up_logo{
+          width: 464.5px;
+        }
+      }
+      @media only screen and (min-width:530px ) and ( max-width:  575px) {
+        img.sign_up_logo{
+          width: 533.5px;
+        }
+      }
+      @media only screen and (min-width:575px ) and ( max-width:  767px){
+        div.card-group{
+          overflow: auto;
+        }
+      }
+      @media only screen and (min-width:564px) and ( max-width: 768px){
+        .mobile_picture{
+              display: grid!important;
+        }
+        .phone_image{
+          margin: 12rem!important;
+        }
+      }
+      @media only screen and (min-width:531px) and ( max-width: 563.5px){
+        .mobile_picture{
+              display: grid!important;
+        }
+        .phone_image{
+          margin: 10rem!important;
+        }
+      }
+  </style>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">
+                <img src="image -logo-company/whatsapp logo.jpeg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Techofy
+              </a>
+              
+              <a class="top_a_tag" href="#">Latest Mobiles --> </a>
+            <a class="top_a_tag"href="#">Samsung A32</a>   
+            <a class="top_a_tag"href="#">oPPo A74 5G</a>  
+            <a class="top_a_tag"href="#">Redmi Note 11S</a>   
+            <a class="top_a_tag"href="#">IQOO Neo 6 5G </a>   
+            <a class="top_a_tag"href="#">Vivo Y73</a>
+          <form class="d-flex pr-5 me-3">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+          <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end rounded-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Settings</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark ">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item ">
+                  <a class="nav-link " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item ">
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Login/Sign up
+                  </button>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown  ">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown  ">
+                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                      <li><a class="dropdown-item" href="#">Mobile Phones</a></li>
+                      <li><a class="dropdown-item" href="#">PC</a></li>
+                      <li>
+                        <li><a class="dropdown-item" href="#">Laptops</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+              </ul>
+        </div>
+      </nav>
+      <div  class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <img style="border-radius: 4px; border:1px solid
+            ; border-bottom:none; border-bottom-left-radius: 0px; border-bottom-right-radius:0px; " class="sign_up_logo" src="image -logo-company/LOGO-1.png" width="498.5"  alt="">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Sign Up</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form  action="#">
+                <div class=" form-floating mb-3">
+                  
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for=" floatingInput" >Email address</label>
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class=" form-floating mb-3">
+                  
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                  
+              
+        
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+          </div>
+          </div>
+        </div>
+      </div>
+      <nav class="  border-top border-3 border-success navbar-dark bg-dark "> 
+        <ul class="nav nav-tabs nav-fill justify-content-center ">
+          <li class="nav-item">
+            <a class="nav-link Go "  aria-current="page" href="#">Mobiles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Go" href="#">Headphones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Go" href="#">Laptops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Go ">PC</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link Go" href="#">Tablets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Go" href="#">Air Conditioner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Go" href="#">Television</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Go" href="#">Cameras</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link Go" href="#">Smart Watch</a>
+            </li><li class="nav-item">
+              <a class="nav-link Go" href="#">Home Theater</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Go" href="#">Washing Machines</a>
+            </li>
+        </ul>
+      </nav>
+    <div class="d-flex mt-5 mobile_picture justify-content-center container">  
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          
+        </div> 
+        <div class="carousel-inner">
+          <!-- -->
+          <div class="carousel-item active" data-bs-interval="10000"> 
+            <img class="phone_image" style="margin:2rem  " width="220rem" src="phone images/vivo x80 5g.jpeg " alt="">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img class="phone_image"style="margin:2rem ; " width="220rem"src="phone images/samsung galaxy s22 plus.jpeg" alt="">
+          </div>  
+          <div class="carousel-item" data-bs-interval="10000">
+            <img class="phone_image"style="margin:2rem ; " width="220rem"src="phone images/one plus 9 pro.jpeg" alt="">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img class="phone_image"style="margin:2rem ; " width="220rem"src="phone images/one plus 9 pro.jpeg" alt="">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img class="phone_image"style="margin:2rem ; " width="220rem"src="phone images/one plus 9 pro.jpeg" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="card container">
+        <h5 class="card-header text-center">Mobile name <a href="Coming soon.html" class="btn btn-primary">+ Compare</a> <a href="Coming soon.html" class="btn btn-primary">+ Shortlist</a></h5>
+        <p class="card-header text-center"><small>enter the features of the phones here like storage Ram Camera</small></p>
+        
+        <div class="card-body">
+          <h5 class="card-title">Enter Price <small><small>(Onwards)</small></small>
+            <button style="position:absolute ; right:0px; " class="  btn btn-danger dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+            Variant
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+              <li><a class="dropdown-item" href="#">4GB RAM</a></li>
+              <li><a class="dropdown-item" href="#">6GB RAM</a></li>
+              <li><a class="dropdown-item" href="#">8GB RAM</a></li>
+            </ul>
+            <button style="position:absolute ; right:100px; " class="  btn btn-danger dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+              color
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+                <li><a class="dropdown-item" href="#">Any color</a></li>
+                <li><a class="dropdown-item" href="#">Blue</a></li>
+                <li><a class="dropdown-item" href="#">Red</a></li>
+              </ul>
+          </h5>
+          <hr>
+          <div class="d-flex">
+            <img width="150px" src="image -logo-company/Affiliate marketing amazon.png" alt="">
+            <h4 style="position:absolute ; right:0px; "class="card-title">Enter Price
+            <button  class="  btn btn-danger" type="button" >Go to Store</button>
+            </h4>
+          </div>
+          <hr>
+          <div class="d-flex">
+            <img width="150px" src="image -logo-company/Affiliate marketing amazon.png" alt="">
+            <h4 style="position:absolute ; right:0px; "class="card-title">Enter Price
+            <button  class="  btn btn-danger" type="button" >Go to Store</button>
+            </h4>
+          </div>
+          <hr>
+          <h4>Key Specs</h4>   
+          <div class=" row">
+            <div class="pe-3 text-center col" style="border-right: 1px solid black; " >
+              <p>
+                <b> <b> Performance</b></b>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 78%"></div>
+                </div>
+                  <b> <small> Octa core(2.2GHz,...) </small></b>
+                  <br>
+                 <b> <small> Snapdragon 695 </small></b>
+                 <br>
+                 <b> <small> 4GB</small></b>
+              </p>
+            </div>
+            <div class="pe-3 ps-3 text-center col" style="border-right: 1px solid black; " >
+              <p>
+                <b> <b> Display </b></b>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                </div>
+                  <b><small> 6.58 inches(16.71cm)</small></b>
+                  <br>
+                 <b> <small> 120Hz Refresh Rate </small> </b>
+                 <br>
+                 <b> <small> IPS LCD</small></b>
+              </p>
+            </div>
+            <div class="pe-3 ps-3 text-center col" style="border-right: 1px solid black; " >
+              <p>
+                <b> <b> Camera </b></b>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                </div>
+                  <b><small> 6.58 inches(16.71cm)</small></b>
+                  <br>
+                 <b> <small> 120Hz Refresh Rate </small> </b>
+                 <br>
+                 <b> <small> IPS LCD</small></b>
+              </p>
+            </div>
+            <div class="pe-3 ps-3 text-center col">
+              <p>
+                <b> <b> Battery </b></b>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                </div>
+                  <b><small> 6.58 inches(16.71cm)</small></b>
+                  <br>
+                 <b> <small> 120Hz Refresh Rate </small> </b>
+                 <br>
+                 <b> <small> IPS LCD</small></b>
+              </p>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>  
+    <div class=" card container mt-3 mb-3">
+      <h4 class="card-header">IQOO Z6 5G Details</h4>
+      <hr>
+      <div class="accordion mb-3" id="accordionExample">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <strong><strong>Buy For</strong></strong>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                  <li>IPS LCD, with 120Hz refresh rate</li>
+                  <li>Triple camera array on the rear side</li>
+                  <li>16MP Front Camera with Screen Flash</li>
+                  <li>18W Fast Charging</li>
+                  <li>128GB Internal storage</li>
+                  <li>Qualcomm Snapdragon 695 chipset</li>
+                  <li>4GB RAM with extended RAM 2.0</li>
+                  <li>Side-mounted fingerprint sensor</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <strong><strong>Verdict</strong></strong>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                iQOO Z6 5G is quite a sorted offering overall, equipped with a vivid display profile, great cameras and Fast Charging compatible battery panel under the hood. Also, this particular variant flaunts the latest Android v12 OS accompanied by a 4GB of RAM. 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <strong><strong>Capture every detail of your life, with iQOO</strong></strong>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+
+                <div class="accordion" id="accordionExample_2">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne_1" aria-expanded="true" aria-controls="collapseOne_1">
+                        Display and Camera
+                      </button>
+                    </h2>
+                    <div id="collapseOne_1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample_2">
+                      <div class="accordion-body">
+                        iQOO Z6 5G offers 6.58 inches IPS LCD having a waterdrop notch at the centre top. This bezel-less front screen also gets a resolution of 1080 x 2408 pixels, an aspect ratio of 20:9 along with a pixel density of 401ppi. Besides, there is a refresh rate of 120Hz. 
+                        <br>
+                        A 50MP f/1.8 Wide Angle Eye AF Camera is available on the rear side of the iQOO Z6 5G, which is also backed by a 2MP f/2.4 Macro Camera and a 2MP f/2.4 Depth Camera. The brand has also provided a 16MP f/2.0 Wide Angle Camera on the front side for video shoots, selfies and video calls. 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo_2" aria-expanded="false" aria-controls="collapseTwo_2">
+                        Configuration and Battery
+                      </button>
+                    </h2>
+                    <div id="collapseTwo_2" class="accordion-collapse collapse" aria-labelledby="headingTwo_2" data-bs-parent="#accordionExample_2">
+                      <div class="accordion-body">
+                        The smartphone delivers powerful performance, thanks to its Qualcomm Snapdragon 695 chipset and 4GB RAM (6nm). It is equipped with an Octa-core processor that includes a Dual-core, Kryo 660, 2.2GHz and a Hexa-core, Kryo 660, 1.7GHz layout. Attaining the graphical needs, iQOO has installed an Adreno 619 GPU within Z6 5G.
+                        <br>
+                        The day to day operations of the iQOO Z6 5G are supported by a 5000mAh Li-ion battery. It is non-removable by nature and comes compatible with a 18W Fast Charging technology.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree_3">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_3" aria-expanded="false" aria-controls="collapseThree_3">
+                        Storage and Connectivity
+                      </button>
+                    </h2>
+                    <div id="collapseThree_3" class="accordion-collapse collapse" aria-labelledby="headingThree_3" data-bs-parent="#accordionExample_2">
+                      <div class="accordion-body">
+                        The 128GB internal storage loaded within iQOO Z6 5G can be expanded up to 1TB. Connectivity features available with this smartphone are 5G, 4G VoLTE networks, Mobile Hotspot, Bluetooth v5.1, A-GPS with Glonass and USB Type-C.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
